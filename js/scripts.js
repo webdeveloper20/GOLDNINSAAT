@@ -116,7 +116,7 @@ $(document).ready(function () {
   });
 
   $(".banner-slider-4").owlCarousel({
-    loop: true,
+    loop: false,
     margin: 0,
     nav: true,
     autoplay: false,
@@ -128,16 +128,48 @@ $(document).ready(function () {
     items: 4,
     responsive: {
       0: {
+        items: 1,
+        nav: true,
+      },
+      434: {
         items: 2,
         nav: true,
       },
       749: {
+        items: 3,
+        nav: true,
+      },
+      991: {
         items: 4,
         nav: true,
       },
     },
   });
-
+  // Partnyor
+  $(".customer-logos").slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+    ],
+  });
+  // partnyor
   $(".banner-slider-5").owlCarousel({
     loop: true,
     margin: 0,
@@ -243,3 +275,5 @@ function PageScroll() {
     e.preventDefault();
   });
 }
+
+// Partnyor slider
