@@ -131,16 +131,20 @@ $(document).ready(function () {
         items: 1,
         nav: true,
       },
-      434: {
+      350: {
         items: 2,
         nav: true,
       },
-      749: {
+      500: {
         items: 3,
         nav: true,
       },
-      991: {
+      749: {
         items: 4,
+        nav: true,
+      },
+      991: {
+        items: 6,
         nav: true,
       },
     },

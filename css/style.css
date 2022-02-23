@@ -4955,8 +4955,8 @@ fieldset:disabled .btn {
   width: 100%;
   padding: 0.25rem 1rem;
   clear: both;
-  font-weight: 400;
-  color: #212529;
+  font-weight: 400 ;
+  color: #212529 ;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
@@ -16497,7 +16497,7 @@ select.sort {
   bottom: 10px;
 }
 .owl-arrow-center .owl-dots .owl-dot.active span {
-  background: var(--theme-color) !important;
+  background: yellow !important;
 }
 .owl-arrow-center .owl-dots span {
   margin: 4px !important;
@@ -17361,7 +17361,7 @@ select.sort {
 /* scroll bar */
 * {
   scrollbar-width: auto;
-  scrollbar-color: #1fea1c #ffffff;
+  scrollbar-color: #ffff00 #ffffff;
 }
 
 /* Chrome, Edge, and Safari */
@@ -17374,7 +17374,7 @@ select.sort {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: green;
+  background-color: yellow;
   border-radius: 7px;
-  border: 2px solid green;
+  border: 2px solid yellow;
 }
