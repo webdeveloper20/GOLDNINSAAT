@@ -1,784 +1,1172 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>GOLDNINSAAT</title>
 
-    <!-- Favicon icon -->
-    <!-- <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico" /> -->
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>GOLDNINSAAT</title>
 
-  <body class="color-theme-yellow  mont-font">
-    <div class="preloader"></div>
-    <!-- main wrapper  -->
-    <div class="main-wrapper bg-lightgrey">
-      <!-- HEADER WRAPPER -->
-      <div
-        class="header-menu-mob pt-2 pb-2 shadow-xss position-fixed w-100 z-index-5 bg-white d-none d-block-sm"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col text-start">
-              <button
-                class="navbar-toggler border-0"
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#menumodal"
-                
-              "
+  <!-- Favicon icon -->
+  <!-- <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico" /> -->
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="color-theme-yellow  mont-font">
+  <div class="preloader"></div>
+  <!-- main wrapper  -->
+  <div class="main-wrapper bg-lightgrey">
+    <!-- HEADER WRAPPER -->
+    <div class="header-menu-mob pt-2 pb-2 shadow-xss position-fixed w-100 z-index-5 bg-white d-none d-block-sm">
+      <div class="container">
+        <div class="row">
+          <div class="col text-start">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="modal" data-bs-target="#menumodal" "
               >
                 <span
-                  class="feather-align-center"
-                  style="
+                  class=" feather-align-center" style="
                     font-size: 30px !important;
                     font-weight: bold;
-                    color: #515184;
-                  "
-                ></span> <br>
-                <span class="font-xssss" style="margin-left: -5px !important; display: inline-block;margin-top: -10px !important;
+                    color: #010107;
+                  "></span> <br>
+              <span class="font-xssss" style="margin-left: -5px !important; display: inline-block;margin-top: -10px !important; color: #010107;
               ">menü</span>
+            </button>
+          </div>
+          <div class="col text-center">
+            <a href="index.html" class="font-xsss text-grey-900" style="display: inline-block; padding-top: 10px">
+              GOLDNINSAAT
+
+              <!-- <img src="" alt="logo" class="logo w-90"/> -->
+            </a>
+          </div>
+          <div class="col text-end">
+            <div class="dropdown dropdown-right border-0">
+              <button class="btn border-0 rounded-0 dropdown-toggle dropdown-toggle-white ps-3" type="button"
+                data-bs-toggle="modal" data-bs-target="#categorymodal" style="
+                    font-size: 30px !important;
+                    font-weight: bold;
+                    color: #010107;
+                    margin-top: -7px !important;
+                  ">
+                <i class="feather-align-left"></i>
+
               </button>
             </div>
-            <div class="col text-center">
-              <a
-                href="index.html"
-                class="font-xsss text-grey-700"
-                style="display: inline-block; padding-top: 10px"
-              >
-                GOLDNINSAAT
-
-                <!-- <img src="" alt="logo" class="logo w-90"/> -->
-              </a>
-            </div>
-            <div class="col text-end">
-              <div class="dropdown dropdown-right border-0">
-                <button
-                  class="btn border-0 rounded-0 dropdown-toggle dropdown-toggle-white ps-3"
-                  type="button"
-                  data-bs-toggle="modal"
-                  data-bs-target="#categorymodal"
-                  style="
-                    font-size: 30px !important;
-                    font-weight: bold;
-                    color: #515184;
-                    margin-top: -7px !important;
-                  "
-                >
-                  <i class="feather-align-left"></i>
-                  
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
-      <div
-        class="header-wrapper bg-invert pt-2 z-index-5 ovh bg-blur d-none d-md-block"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 d-flex">
-              <a href="index.html">
-                <p class="text-black font-xl">GOLDNINSAAT</p>
-                <!-- <img src="" alt="logo" class="logo"
+    </div>
+    <div class="header-wrapper bg-invert pt-2 z-index-5 ovh bg-blur d-none d-md-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex">
+            <a href="index.html">
+              <p class="text-black font-xl">GOLDNINSAAT</p>
+              <!-- <img src="" alt="logo" class="logo"
               /> -->
-              </a>
-              <div class="header-search ms-auto me-2 d-flex">
-                <!-- search -->
-                <div class="form-group mb-0 icon-input d-md-block me-2">
-                  <i class="feather-search font-sm text-grey-700"></i>
-                  <input
-                    type="text"
-                    placeholder="Məhsulları axtarın..."
-                    class="lh-38 pt-2 pb-2 ps-5 pe-3 font-xssss fw-600 rounded-50 posr"
-                  />
-                </div>
+            </a>
+            <div class="header-search ms-auto me-2 d-flex">
+              <!-- search -->
+              <div class="form-group mb-0 icon-input d-md-block me-2">
+                <i class="feather-search font-sm text-grey-700"></i>
+                <input type="text" placeholder="Məhsulları axtarın..."
+                  class="lh-38 pt-2 pb-2 ps-5 pe-3 font-xssss fw-600 rounded-50 posr" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div
-        class="lower-header pt-0 pb-0 bg-invert shadow-xss z-index-1 bg-yellow  d-md-block d-none"
-      >
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-3 pe-0">
-              <div class="dropdown dropdown-right border-0">
-                <button
-                  class="btn border-0 rounded-0 dropdown-toggle dropdown-toggle-white  ps-3"
-                  type="button"
-                  data-bs-toggle="modal"
-                  data-bs-target="#categorymodal"
-                >
-                  <i class="feather-align-left"></i>All Categories
-                </button>
-              </div>
-            </div>
-            <div class="col-md-9">
-              <div class="navbar navbar-expand-md p-0">
-                <div class="navbar-collapse collapse show" id="main_nav">
-                  <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#main_nav"
-                    aria-expanded="true"
-                    aria-label="Toggle navigation"
-                  >
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <ul class="navbar-nav" style="margin-left: auto">
-                    <li class="nav-item active">
-                      <a
-                        class="nav-link"
-                        href="index.html"
-                        aria-expanded="false"
-                        >Ana səhifə
-                      </a>
-                    </li>
-                    <li class="nav-item active">
-                      <a
-                        class="nav-link"
-                        href="məhsullar.html"
-                        aria-expanded="false"
-                        >Məhsullar
-                      </a>
-                    </li>
-
-                    <li class="nav-item active">
-                      <a
-                        class="nav-link"
-                        href="about.html"
-                        aria-expanded="false"
-                        >Biz kimik</a
-                      >
-                    </li>
-                    <li class="nav-item active">
-                      <a
-                        class="nav-link"
-                        href="contact.html"
-                        aria-expanded="false"
-                        >Əlaqə</a
-                      >
-                    </li>
-                  </ul>
-                  <ul class="navbar-nav ms-auto">
-                    <li class="nav-item text-grey-100 fw-500 font-xssss">
-                      Əlaqə nömrəsi:
-                      <a href="tel:03340005000" class="fw-700 text-white"
-                        >+994 55-298-09-99</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- search -->
-
-      <div class="header-wrapper d-block d-md-none mb-2">
-        <div class="container-fluid">
-          <div class="row">
-            <div
-              class="header-search ms-auto me-2 justify-content-center d-flex"
-            >
-              <div
-                class="form-group mb-0 icon-input me-2"
-                style="margin-top: 80px"
-              >
-                <i class="feather-search font-sm me-2 text-grey-700"></i>
-                <input
-                  type="text"
-                  placeholder=" Məhsulları axtarın..."
-                  class="border font-xssss fw-600 rounded-50"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- BANNER WRAPPER -->
-      <div class="banner-wrapper">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-12 m-0 p-0">
-              <div
-                class="owl-carousel slider-banner banner-wrap owl-theme ovh m-0 p-0 nav-none owl-arrow-center arrow-container"
-              >
-                <div
-                  class="item rounded-0 bg-image-cover ovh style1 d-flex justify-content-start"
-                  style="
-                    background-image: url(images/mark-potterton-sNVkn3507Oo-unsplash.jpg);
-                  "
-                >
-                  <div class="slide-content text-left w-50 ps-lg-5">
-                    <span class="text-grey-100">Lorem ipsum dolor sit.</span>
-                    <h2 class="text-grey-100">
-                      <b class="d-block">Lorem, ipsum. </b>Lorem., ipsum.
-                    </h2>
-                    <p class="text-grey-100">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nobis, hic.
-                    </p>
-                    <div class="clearfix"></div>
-                  </div>
-                </div>
-                <div
-                  class="item rounded-0 bg-image-cover ovh style1 d-flex justify-content-start"
-                  style="
-                    background-image: url(images/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg);
-                  "
-                >
-                  <div class="slide-content text-left w-50 ps-lg-5">
-                    <span class="text-grey-100">Lorem ipsum dolor sit.</span>
-                    <h2 class="text-grey-100">
-                      <b class="d-block">Lorem, ipsum. </b>Lorem., ipsum.
-                    </h2>
-                    <p class="text-grey-100">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nobis, hic.
-                    </p>
-                    <div class="clearfix"></div>
-                  </div>
-                </div>
-              
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- BANNER WRAPPER -->
-
-      <div class="main-wrap pt-4">
-        <div class="content-wrap">
-          <div class="container-fluid">
-            <div class="row">
-              <!--  Ən çox satılan bölüm-->
-              <div class="col-lg-12 mt-4">
-                <h4 class="fw-700 font-xs text-center mb-4 mt-2">
-                  Ən Çox Satılan Məhsullar
-                </h4>
-              </div>
-
-              <div class="col-lg-12">
-                <div
-                  class="banner-slider-4 owl-carousel owl-theme dot-none owl-nav-link owl-arrow-top border rounded bor bg-white"
-                >
-                  <div class="owl-items mx-2">
-                    <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
-                      <div class="clearfix"></div>
-                      <a
-                        href="#"
-                        class="d-block text-center p-2"
-                        data-bs-toggle="modal"
-                        data-bs-target="#productmodal"
-                        ><img
-                          src="images/demir.jpg"
-                          alt="product-image"
-                          class="w-100 mt-1 d-inline-block"
-                      /></a>
-
-                      <div class="clearfix"></div>
-                      <h2 class="mt-2">
-                        <a
-                          href="mehsul.html"
-                          class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0"
-                          >MasterTop 528 özüyayılan hamarlayıcı örtük
-                          materialıdır
-                          <br />
-                          <span class="ms-auto text-black fw-500 font-xs"
-                            >20kq</span
-                          >
-                          
-                        </a>
-                      </h2>
-                      <h6 class="font-xss text-center ls-3 fw-700 text-black ">
-                        54 azn
-                      
-                      </h6>
-                    </div>
-                  </div>
-                  <div class="owl-items mx-2">
-                    <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
-                      <div class="clearfix"></div>
-                      <a
-                        href="#"
-                        class="d-block text-center p-2"
-                        data-bs-toggle="modal"
-                        data-bs-target="#productmodal"
-                        ><img
-                          src="images/demir.jpg"
-                          alt="product-image"
-                          class="w-100 mt-1 d-inline-block"
-                      /></a>
-
-                      <div class="clearfix"></div>
-                      <h2 class="mt-2">
-                        <a
-                          href="mehsul.html"
-                          class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0"
-                          >MasterTop 528 özüyayılan hamarlayıcı örtük
-                          materialıdır
-                          <br />
-                          <span class="ms-auto text-black fw-500 font-xs"
-                            >20kq</span
-                          >
-                          
-                        </a>
-                      </h2>
-                      <h6 class="font-xss text-center ls-3 fw-700 text-black ">
-                        54 azn
-                      
-                      </h6>
-                    </div>
-                  </div>
-                  <div class="owl-items mx-2">
-                    <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
-                      <div class="clearfix"></div>
-                      <a
-                        href="#"
-                        class="d-block text-center p-2"
-                        data-bs-toggle="modal"
-                        data-bs-target="#productmodal"
-                        ><img
-                          src="images/demir.jpg"
-                          alt="product-image"
-                          class="w-100 mt-1 d-inline-block"
-                      /></a>
-
-                      <div class="clearfix"></div>
-                      <h2 class="mt-2">
-                        <a
-                          href="mehsul.html"
-                          class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0"
-                          >MasterTop 528 özüyayılan hamarlayıcı örtük
-                          materialıdır
-                          <br />
-                          <span class="ms-auto text-black fw-500 font-xs"
-                            >20kq</span
-                          >
-                          
-                        </a>
-                      </h2>
-                      <h6 class="font-xss text-center ls-3 fw-700 text-black ">
-                        54 azn
-                      
-                      </h6>
-                    </div>
-                  </div>
-                  <div class="owl-items mx-2">
-                    <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
-                      <div class="clearfix"></div>
-                      <a
-                        href="#"
-                        class="d-block text-center p-2"
-                        data-bs-toggle="modal"
-                        data-bs-target="#productmodal"
-                        ><img
-                          src="images/demir.jpg"
-                          alt="product-image"
-                          class="w-100 mt-1 d-inline-block"
-                      /></a>
-
-                      <div class="clearfix"></div>
-                      <h2 class="mt-2">
-                        <a
-                          href="mehsul.html"
-                          class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0"
-                          >MasterTop 528 özüyayılan hamarlayıcı örtük
-                          materialıdır
-                          <br />
-                          <span class="ms-auto text-black fw-500 font-xs"
-                            >20kq</span
-                          >
-                          
-                        </a>
-                      </h2>
-                      <h6 class="font-xss text-center ls-3 fw-700 text-black ">
-                        54 azn
-                      
-                      </h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--  -->
-
-              <div class="col-lg-12 mt-4">
-                <h4 class="fw-700 font-xs text-center mb-4 mt-2">
-                  Bütün Məhsullar
-                </h4>
-              </div>
-
-              <div class="col-lg-12">
-                <div
-                  class="banner-slider-4 owl-carousel owl-theme dot-none owl-nav-link owl-arrow-top border rounded bor bg-white"
-                >
-                  <div class="owl-items mx-2">
-                    <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
-                      <div class="clearfix"></div>
-                      <a
-                        href="#"
-                        class="d-block text-center p-2"
-                        data-bs-toggle="modal"
-                        data-bs-target="#productmodal"
-                        ><img
-                          src="images/demir.jpg"
-                          alt="product-image"
-                          class="w-100 mt-1 d-inline-block"
-                      /></a>
-
-                      <div class="clearfix"></div>
-                      <h2 class="mt-2">
-                        <a
-                          href="mehsul.html"
-                          class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0"
-                          >MasterTop 528 özüyayılan hamarlayıcı örtük
-                          materialıdır
-                          <br />
-                          <span class="ms-auto text-black fw-500 font-xs"
-                            >20kq</span
-                          >
-                          
-                        </a>
-                      </h2>
-                      <h6 class="font-xss text-center ls-3 fw-700 text-black ">
-                        54 azn
-                      
-                      </h6>
-                    </div>
-                  </div>
-                  <div class="owl-items mx-2">
-                    <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
-                      <div class="clearfix"></div>
-                      <a
-                        href="#"
-                        class="d-block text-center p-2"
-                        data-bs-toggle="modal"
-                        data-bs-target="#productmodal"
-                        ><img
-                          src="images/demir.jpg"
-                          alt="product-image"
-                          class="w-100 mt-1 d-inline-block"
-                      /></a>
-
-                      <div class="clearfix"></div>
-                      <h2 class="mt-2">
-                        <a
-                          href="mehsul.html"
-                          class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0"
-                          >MasterTop 528 özüyayılan hamarlayıcı örtük
-                          materialıdır
-                          <br />
-                          <span class="ms-auto text-black fw-500 font-xs"
-                            >20kq</span
-                          >
-                          
-                        </a>
-                      </h2>
-                      <h6 class="font-xss text-center ls-3 fw-700 text-black ">
-                        54 azn
-                      
-                      </h6>
-                    </div>
-                  </div>
-                  <div class="owl-items mx-2">
-                    <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
-                      <div class="clearfix"></div>
-                      <a
-                        href="#"
-                        class="d-block text-center p-2"
-                        data-bs-toggle="modal"
-                        data-bs-target="#productmodal"
-                        ><img
-                          src="images/demir.jpg"
-                          alt="product-image"
-                          class="w-100 mt-1 d-inline-block"
-                      /></a>
-
-                      <div class="clearfix"></div>
-                      <h2 class="mt-2">
-                        <a
-                          href="mehsul.html"
-                          class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0"
-                          >MasterTop 528 özüyayılan hamarlayıcı örtük
-                          materialıdır
-                          <br />
-                          <span class="ms-auto text-black fw-500 font-xs"
-                            >20kq</span
-                          >
-                          
-                        </a>
-                      </h2>
-                      <h6 class="font-xss text-center ls-3 fw-700 text-black ">
-                        54 azn
-                      
-                      </h6>
-                    </div>
-                  </div>
-                  <div class="owl-items mx-2">
-                    <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
-                      <div class="clearfix"></div>
-                      <a
-                        href="#"
-                        class="d-block text-center p-2"
-                        data-bs-toggle="modal"
-                        data-bs-target="#productmodal"
-                        ><img
-                          src="images/demir.jpg"
-                          alt="product-image"
-                          class="w-100 mt-1 d-inline-block"
-                      /></a>
-
-                      <div class="clearfix"></div>
-                      <h2 class="mt-2">
-                        <a
-                          href="mehsul.html"
-                          class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0"
-                          >MasterTop 528 özüyayılan hamarlayıcı örtük
-                          materialıdır
-                          <br />
-                          <span class="ms-auto text-black fw-500 font-xs"
-                            >20kq</span
-                          >
-                          
-                        </a>
-                      </h2>
-                      <h6 class="font-xss text-center ls-3 fw-700 text-black ">
-                        54 azn
-                      
-                      </h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Partnyor -->
+    </div>
+    <div class="lower-header pt-0 pb-0 bg-invert shadow-xss z-index-1 bg-yellow  d-md-block d-none">
       <div class="container-fluid">
-        <h1 class="font-lg text-center my-5">Bizim Partnyorlarımız</h1>
-        <section class="customer-logos mb-5 slider">
-          <div class="slide">
-            <img src="images/partnyor/partnyor1.png" />
+        <div class="row">
+          <div class="col-md-3 pe-0">
+            <div class="dropdown dropdown-right border-0">
+              <button class="btn border-0 rounded-0 dropdown-toggle dropdown-toggle-white  ps-3" type="button"
+                data-bs-toggle="modal" data-bs-target="#categorymodal">
+                <i class="feather-align-left"></i>All Categories
+              </button>
+            </div>
           </div>
-          <div class="slide">
-            <img src="images/partnyor/partnyor_2.jpeg" />
-          </div>
-          <div class="slide">
-            <img src="images/partnyor/partnyor3.png" />
-          </div>
-          <div class="slide">
-            <img src="images/partnyor/partnyor4.png" />
-          </div>
-          <div class="slide">
-            <img src="images/partnyor/partnyor5.png" />
-          </div>
-         
-         
-        </section>
-      </div>
-      <!-- Partnyor -->
+          <div class="col-md-9">
+            <div class="navbar navbar-expand-md p-0">
+              <div class="navbar-collapse collapse show" id="main_nav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                  aria-expanded="true" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav" style="margin-left: auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html" aria-expanded="false">Ana səhifə
+                    </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="məhsullar.html" aria-expanded="false">Məhsullar
+                    </a>
+                  </li>
 
-      <!-- FOOTER WRAPPER -->
-
-      <hr />
-      <div class="upper-footer pt-2">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 col-xs-6 sm-mb-3">
-              <h3>Sayt xəritəsi</h3>
-              <ul class="menu">
-                <li><a href="index.html">Ana səhifə</a></li>
-                <li><a href="məhsullar.html">Məhsullar</a></li>
-                <li><a href="about.html">Biz Kimik</a></li>
-                <li><a href="contact.html">Əlaqə</a></li>
-              </ul>
-            </div>
-            <div class="col-md-3 col-xs-6 sm-mb-3">
-              <h3>Katagoriyalar</h3>
-              <ul class="menu">
-                <li><a href="catagory.html">Sment Məhsulları</a></li>
-                <li><a href="catagory1.html">Dəmir Məhsulları</a></li>
-                <li><a href="#">İnşaat məhsulları</a></li>
-                <li><a href="#">Yapışqanlar</a></li>
-              </ul>
-            </div>
-           
-            <div class="col-md-3 col-xs-6 sm-mb-3">
-              <h3>Bizimlə əlaqə</h3>
-              <ul class="menu">
-                <li><p class="font-xsss">Telfon Nömrəsi : 055-298-09-99</p></li>
-                <li><a href="mailto:goldinshaat@mail.ru" style="margin-top: -15px !important;">Mail: goldinshaat@mail.ru</a></li>
-                <li><a href="https://www.google.com/maps/place/40%C2%B025'38.7%22N+49%C2%B052'53.0%22E/@40.4274282,49.8791854,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x4f2eae5b96b18c6b!8m2!3d40.4274282!4d49.8813741?hl=tr">Ünvan: Dərnəgül şossesi, Ziya Bünyadov 2113</a></li>
-              </ul>
-            </div>
-             <div class="col-md-3 col-xs-6 sm-mb-3">
-              <h3>Sosial Media</h3>
-              <ul class="menu">
-                <li > <a
-                      href="#"
-                      class=" bg-facebook"
-                      ><i class="ti-facebook mx-2 text-white"></i
-                    ><span style="display: inline-block;margin-left: 20px !important;color: #fff;">Facebook</span> </a></li> 
-                <li>    <a
-                      href="#"
-                      class=" mt-2  bg-instagram"
-                      ><i class="ti-instagram text-white mx-2"></i
-                    ><span style="display: inline-block;margin-left: 20px !important;color: #fff;">İnstagram</span></a> </li>
-              </ul>
-            </div>
-            <div class="col-lg-12 pt-5 mt-5"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="lower-footer bg-white pb-3 border-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center text-sm-start xs-mb-3">
-              <p class="text-grey-500 text-center fw-500 font-xssss pt-3 mb-0">
-                @ Copyright 2021 bütün hüquqlar.
-              </p>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="about.html" aria-expanded="false">Biz kimik</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="contact.html" aria-expanded="false">Əlaqə</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item text-grey-100 fw-500 font-xssss">
+                    Əlaqə nömrəsi:
+                    <a href="tel:03340005000" class="fw-700 text-white">+994 55-298-09-99</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- FOOTER WRAPPER -->
+    </div>
+    <!-- search -->
+
+    <div class="header-wrapper d-block d-md-none mb-2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="header-search ms-auto me-2 justify-content-center d-flex">
+            <div class="form-group mb-0 icon-input me-2" style="margin-top: 80px">
+              <i class="feather-search font-sm me-2 text-grey-700"></i>
+              <input type="text" placeholder=" Məhsulları axtarın..." class="border font-xssss fw-600 rounded-50" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BANNER WRAPPER -->
+    <div class="banner-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 m-0 p-0">
+            <div
+              class="owl-carousel slider-banner banner-wrap owl-theme ovh m-0 p-0 nav-none owl-arrow-center arrow-container">
+              <div class="item rounded-0 bg-image-cover ovh style1 d-flex justify-content-start" style="
+                    background-image: url(images/mark-potterton-sNVkn3507Oo-unsplash.jpg);
+                  ">
+                <div class="slide-content text-left w-50 ps-lg-5">
+                  <span class="text-grey-100">Lorem ipsum dolor sit.</span>
+                  <h2 class="text-grey-100">
+                    <b class="d-block">Lorem, ipsum. </b>Lorem., ipsum.
+                  </h2>
+                  <p class="text-grey-100">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis, hic.
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="item rounded-0 bg-image-cover ovh style1 d-flex justify-content-start" style="
+                    background-image: url(images/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg);
+                  ">
+                <div class="slide-content text-left w-50 ps-lg-5">
+                  <span class="text-grey-100">Lorem ipsum dolor sit.</span>
+                  <h2 class="text-grey-100">
+                    <b class="d-block">Lorem, ipsum. </b>Lorem., ipsum.
+                  </h2>
+                  <p class="text-grey-100">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis, hic.
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BANNER WRAPPER -->
+
+    <div class="main-wrap pt-4">
+      <div class="content-wrap">
+        <div class="container-fluid">
+          <div class="row">
+            <!--  Ən çox satılan bölüm-->
+            <div class="col-lg-12 mt-4">
+              <h4 class="fw-700 font-xs text-center mb-4 mt-2">
+                Ən Çox Satılan Məhsullar
+              </h4>
+            </div>
+
+            <div class="col-lg-12">
+              <div
+                class="banner-slider-4 owl-carousel owl-theme dot-none owl-nav-link owl-arrow-top border rounded bor bg-white">
+                <div class="owl-items mx-2">
+                  <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
+                    <div class="clearfix"></div>
+                    <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                      data-bs-target="#productmodal"><img src="images/demir.jpg" alt="product-image"
+                        class="w-100 mt-1 d-inline-block" /></a>
+
+                    <div class="clearfix"></div>
+                    <h2 class="mt-2">
+                      <a href="mehsul.html"
+                        class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0">MasterTop 528 özüyayılan
+                        hamarlayıcı örtük
+                        materialıdır
+                        <br />
+                        <span class="ms-auto text-black fw-500 font-xs">20kq</span>
+
+                      </a>
+                    </h2>
+                    <h6 class="font-xss text-center ls-3 fw-700 text-black ">
+                      54 azn
+
+                    </h6>
+                  </div>
+                </div>
+                <div class="owl-items mx-2">
+                  <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
+                    <div class="clearfix"></div>
+                    <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                      data-bs-target="#productmodal"><img src="images/demir.jpg" alt="product-image"
+                        class="w-100 mt-1 d-inline-block" /></a>
+
+                    <div class="clearfix"></div>
+                    <h2 class="mt-2">
+                      <a href="mehsul.html"
+                        class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0">MasterTop 528 özüyayılan
+                        hamarlayıcı örtük
+                        materialıdır
+                        <br />
+                        <span class="ms-auto text-black fw-500 font-xs">20kq</span>
+
+                      </a>
+                    </h2>
+                    <h6 class="font-xss text-center ls-3 fw-700 text-black ">
+                      54 azn
+
+                    </h6>
+                  </div>
+                </div>
+                <div class="owl-items mx-2">
+                  <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
+                    <div class="clearfix"></div>
+                    <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                      data-bs-target="#productmodal"><img src="images/demir.jpg" alt="product-image"
+                        class="w-100 mt-1 d-inline-block" /></a>
+
+                    <div class="clearfix"></div>
+                    <h2 class="mt-2">
+                      <a href="mehsul.html"
+                        class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0">MasterTop 528 özüyayılan
+                        hamarlayıcı örtük
+                        materialıdır
+                        <br />
+                        <span class="ms-auto text-black fw-500 font-xs">20kq</span>
+
+                      </a>
+                    </h2>
+                    <h6 class="font-xss text-center ls-3 fw-700 text-black ">
+                      54 azn
+
+                    </h6>
+                  </div>
+                </div>
+                <div class="owl-items mx-2">
+                  <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
+                    <div class="clearfix"></div>
+                    <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                      data-bs-target="#productmodal"><img src="images/demir.jpg" alt="product-image"
+                        class="w-100 mt-1 d-inline-block" /></a>
+
+                    <div class="clearfix"></div>
+                    <h2 class="mt-2">
+                      <a href="mehsul.html"
+                        class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0">MasterTop 528 özüyayılan
+                        hamarlayıcı örtük
+                        materialıdır
+                        <br />
+                        <span class="ms-auto text-black fw-500 font-xs">20kq</span>
+
+                      </a>
+                    </h2>
+                    <h6 class="font-xss text-center ls-3 fw-700 text-black ">
+                      54 azn
+
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+
+            <div class="col-lg-12 mt-4">
+              <h4 class="fw-700 font-xs text-center mb-4 mt-2">
+                Bütün Məhsullar
+              </h4>
+            </div>
+
+            <div class="col-lg-12">
+              <div
+                class="banner-slider-4 owl-carousel owl-theme dot-none owl-nav-link owl-arrow-top border rounded bor bg-white">
+                <div class="owl-items mx-2">
+                  <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
+                    <div class="clearfix"></div>
+                    <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                      data-bs-target="#productmodal"><img src="images/demir.jpg" alt="product-image"
+                        class="w-100 mt-1 d-inline-block" /></a>
+
+                    <div class="clearfix"></div>
+                    <h2 class="mt-2">
+                      <a href="mehsul.html"
+                        class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0">MasterTop 528 özüyayılan
+                        hamarlayıcı örtük
+                        materialıdır
+                        <br />
+                        <span class="ms-auto text-black fw-500 font-xs">20kq</span>
+
+                      </a>
+                    </h2>
+                    <h6 class="font-xss text-center ls-3 fw-700 text-black ">
+                      54 azn
+
+                    </h6>
+                  </div>
+                </div>
+                <div class="owl-items mx-2">
+                  <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
+                    <div class="clearfix"></div>
+                    <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                      data-bs-target="#productmodal"><img src="images/demir.jpg" alt="product-image"
+                        class="w-100 mt-1 d-inline-block" /></a>
+
+                    <div class="clearfix"></div>
+                    <h2 class="mt-2">
+                      <a href="mehsul.html"
+                        class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0">MasterTop 528 özüyayılan
+                        hamarlayıcı örtük
+                        materialıdır
+                        <br />
+                        <span class="ms-auto text-black fw-500 font-xs">20kq</span>
+
+                      </a>
+                    </h2>
+                    <h6 class="font-xss text-center ls-3 fw-700 text-black ">
+                      54 azn
+
+                    </h6>
+                  </div>
+                </div>
+                <div class="owl-items mx-2">
+                  <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
+                    <div class="clearfix"></div>
+                    <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                      data-bs-target="#productmodal"><img src="images/demir.jpg" alt="product-image"
+                        class="w-100 mt-1 d-inline-block" /></a>
+
+                    <div class="clearfix"></div>
+                    <h2 class="mt-2">
+                      <a href="mehsul.html"
+                        class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0">MasterTop 528 özüyayılan
+                        hamarlayıcı örtük
+                        materialıdır
+                        <br />
+                        <span class="ms-auto text-black fw-500 font-xs">20kq</span>
+
+                      </a>
+                    </h2>
+                    <h6 class="font-xss text-center ls-3 fw-700 text-black ">
+                      54 azn
+
+                    </h6>
+                  </div>
+                </div>
+                <div class="owl-items mx-2">
+                  <div class="col-lg-12 p-3 rounded-6 border my-3 posr">
+                    <div class="clearfix"></div>
+                    <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                      data-bs-target="#productmodal"><img src="images/demir.jpg" alt="product-image"
+                        class="w-100 mt-1 d-inline-block" /></a>
+
+                    <div class="clearfix"></div>
+                    <h2 class="mt-2">
+                      <a href="mehsul.html"
+                        class="text-yellow fw-600 text-center font-xsss lh-22 d-block ls-0">MasterTop 528 özüyayılan
+                        hamarlayıcı örtük
+                        materialıdır
+                        <br />
+                        <span class="ms-auto text-black fw-500 font-xs">20kq</span>
+
+                      </a>
+                    </h2>
+                    <h6 class="font-xss text-center ls-3 fw-700 text-black ">
+                      54 azn
+
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- MENU MODAL -->
-    <div
-      class="modal fade left modal-scrollable"
-      id="menumodal"
-      tabindex="-1"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content theme-dark-bg p-0 border-0 rounded-0">
-          <button
-            type="button"
-            class="btn-close z-index-5 bg-grey font-xsssss w-26 h-26 text-center rounded-circle posa right-0 top-0 mt-4 me-3"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-          <div class="modal-body vw100 text-start p-0 h-100">
-            <div class="card p-4 border-0 text-start h-100">
-              <h4
-                class="fw-700 font-xs fw-700 text-grey-900 text-start mb-3 d-block ls-0"
-              >
-                GOLDNINSAAT
-              </h4>
+    <!-- Partnyor -->
+    <div class="container-fluid">
+      <h1 class="font-lg text-center my-5">Bizim Partnyorlarımız</h1>
+      <section class="customer-logos mb-5 slider">
+        <div class="slide">
+          <img src="images/partnyor/partnyor1.png" />
+        </div>
+        <div class="slide">
+          <img src="images/partnyor/partnyor_2.jpeg" />
+        </div>
+        <div class="slide">
+          <img src="images/partnyor/partnyor3.png" />
+        </div>
+        <div class="slide">
+          <img src="images/partnyor/partnyor4.png" />
+        </div>
+        <div class="slide">
+          <img src="images/partnyor/partnyor5.png" />
+        </div>
 
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html" aria-expanded="false"
-                    >Ana səhifə
+
+      </section>
+    </div>
+    <!-- Partnyor -->
+
+    <!-- FOOTER WRAPPER -->
+
+    <hr />
+    <div class="upper-footer pt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-xs-6 sm-mb-3">
+            <h3>Sayt xəritəsi</h3>
+            <ul class="menu">
+              <li><a href="index.html">Ana səhifə</a></li>
+              <li><a href="məhsullar.html">Məhsullar</a></li>
+              <li><a href="about.html">Biz Kimik</a></li>
+              <li><a href="contact.html">Əlaqə</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-xs-6 sm-mb-3">
+            <h3>Katagoriyalar</h3>
+            <ul class="menu">
+              <li><a href="catagory.html">Sment Məhsulları</a></li>
+              <li><a href="catagory1.html">Dəmir Məhsulları</a></li>
+              <li><a href="#">İnşaat məhsulları</a></li>
+              <li><a href="#">Yapışqanlar</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-xs-6 sm-mb-3">
+            <h3>Bizimlə əlaqə</h3>
+            <ul class="menu">
+              <li>
+                <p class="font-xsss">Telfon Nömrəsi : 055-298-09-99</p>
+              </li>
+              <li><a href="mailto:goldinshaat@mail.ru" style="margin-top: -15px !important;">Mail:
+                  goldinshaat@mail.ru</a></li>
+              <li><a
+                  href="https://www.google.com/maps/place/40%C2%B025'38.7%22N+49%C2%B052'53.0%22E/@40.4274282,49.8791854,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x4f2eae5b96b18c6b!8m2!3d40.4274282!4d49.8813741?hl=tr">Ünvan:
+                  Dərnəgül şossesi, Ziya Bünyadov 2113</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-xs-6 sm-mb-3">
+            <h3>Sosial Media</h3>
+            <ul class="menu">
+              <li> <a href="#" class=" bg-facebook"><i class="ti-facebook mx-2 text-white"></i><span
+                    style="display: inline-block;margin-left: 20px !important;color: #fff;">Facebook</span> </a></li>
+              <li> <a href="#" class=" mt-2  bg-instagram"><i class="ti-instagram text-white mx-2"></i><span
+                    style="display: inline-block;margin-left: 20px !important;color: #fff;">İnstagram</span></a> </li>
+            </ul>
+          </div>
+          <div class="col-lg-12 pt-5 mt-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lower-footer bg-white pb-3 border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center text-sm-start xs-mb-3">
+            <p class="text-grey-500 text-center fw-500 font-xssss pt-3 mb-0">
+              @ Copyright 2021 bütün hüquqlar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER WRAPPER -->
+  </div>
+
+  <!-- MENU MODAL -->
+  <div class="modal fade left modal-scrollable" id="menumodal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content theme-dark-bg p-0 border-0 rounded-0">
+        <button type="button"
+          class="btn-close z-index-5 bg-grey font-xsssss w-26 h-26 text-center rounded-circle posa right-0 top-0 mt-4 me-3"
+          data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body vw100 text-start p-0 h-100">
+          <div class="card p-4 border-0 text-start h-100">
+            <h4 class="fw-700 font-xs fw-700 text-grey-900 text-start mb-3 d-block ls-0">
+              GOLDNINSAAT
+            </h4>
+
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html" aria-expanded="false">Ana səhifə
+                </a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="məhsullar.html" aria-expanded="false">Məhsullar</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html" aria-expanded="false">Biz Kimik</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html" aria-expanded="false">Əlaqə</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- catagory -->
+  <div class="modal catagory fade rounded-0 left  modal-scrollable" id="categorymodal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog bg-dark rounded-0 text-white modal-dialog-centered">
+      <div class="modal-content theme-dark-bg p-0 border-0 rounded-0">
+        <button type="button"
+          class="btn-close z-index-5 bg-yellow text-white font-xsssss w-26 h-26 text-center rounded-circle posa right-0 top-0 mt-2 me-3"
+          data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body rounded-0 border-0 vw100 text-start  p-0">
+          <div class="card card-change p-4 border-0 text-start">
+            <h4 class="fw-700 text-grey-100 text-start mb-3 mt-n2 font-xs font-catagory d-block ls-0">
+              Katagoriyalar
+            </h4>
+            <ul class="ms-0 ps-0 rounded-0 border-0 mt-3">
+              <!--  Tavan aksesuarları -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Tavan aksesuarları
+                    <i class="feather-chevron-right "></i>
                   </a>
-                </li>
+                  <ul class="dropdown-menu border-left " aria-labelledby="navbarDropdown">
 
-                <li class="nav-item active">
-                  <a
-                    class="nav-link"
-                    href="məhsullar.html"
-                    aria-expanded="false"
-                    >Məhsullar</a
-                  >
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="about.html" aria-expanded="false"
-                    >Biz Kimik</a
-                  >
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="contact.html" aria-expanded="false"
-                    >Əlaqə</a
-                  >
+                    <li><a class="dropdown-item margin-left" href="#">Asma tavan</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Oristeklo</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Lambirin</a></li>
+                    <li><a class="dropdown-item margin-left" href="#">Gipsalit tərkibli asma tavan</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Köməkçi vasitələr</a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
-            </div>
+              <!-- Elektirik -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Elektrik <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu margin-left" aria-labelledby="navbarDropdown">
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Elelktrik qutuları <i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item margin-left" href="№">Dəmir elektrik qutuları</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Plastik elektrik qutuları</a>
+                        </li>
+
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        İşıqlandırma <i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item margin-left" href="№">Otaq işıqları</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Lampalar</a>
+                        </li>
+                        <li><a class="dropdown-item margin-left" href="№">Spotlar</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Küçə işıqları</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Çılçıraqlar</a>
+                        </li>
+
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Elektrik tənzimləyici <i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item margin-left" href="№">Generator</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Stabilizator</a>
+                        </li>
+                        <li><a class="dropdown-item margin-left" href="№">Transformator</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Elektrik yuvası <i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item margin-left" href="№">Rulma</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Schneider
+                          </a>
+                        </li>
+                        <li><a class="dropdown-item margin-left" href="№">Elbi</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Avtomat sığortalar<i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item margin-left" href="№">Schneider</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Siemens
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Naqil və kabel <i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item margin-left" href="№">Anten kabeli</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Kabel izoliyasiya
+                          </a>
+                        </li>
+                        <li><a class="dropdown-item margin-left" href="№">İnternet və telefon kabeli</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Naqillər
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Kabellər
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdown-item " href="#">Yüksək gərginlikli elektrik avadanlıqları</a></li>
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Kabel kanalı və boruları <i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item margin-left" href="№">Plastik</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Dəmir
+                          </a>
+                        </li>
+
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Domofon <i class="feather-chevron-right text-black"></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item margin-left" href="№">Domofon və qapı zəngləri</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Kamera
+                          </a>
+                        </li>
+
+                      </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="№">Müxtəlif</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- Boya -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Boya
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">Boyalar</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Emulsiyalar</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Köməkçi vasitələr</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- Paduqa və Termoaqlay -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Paduqa və Termoaqlay
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">Paduqalar</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Termoaqlay</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- Mebellər -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Mebellər
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">Mətbəx mebelləri</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Divanlar</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- Quru qarışıqlar -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Quru qarışıqlar
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">Alçı</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Qum və atsep</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Sement</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Keramika yapışdırıcısı</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">İzoliyasiya Materialları</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Gips</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Dərz dolğusu</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Qum və atsep</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Köməkçi vasitələr</a></li>
+
+                  </ul>
+                </li>
+              </ul>
+              <!--   Bağ-bağça -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Bağ-bağça <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Bağça alətləri<i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li>
+                          <a class="dropdown-item margin-left" href="#"> Ot biçənlər</a>
+                        </li>
+                        <li><a class="dropdown-item margin-left" href="#">Elektrikli bağça avadanlıqları</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Mişarlar və qayçılar</a>
+                        </li>
+                        <li><a class="dropdown-item margin-left" href="#">Müxtəlif</a></li>
+
+                      </ul>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="№">Su nasosu və hidroforlar</a></li>
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Boru sistemi
+                        <i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li>
+                          <a class="dropdown-item margin-left" href="#"> Boru birləşdiriciləri</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#"> borular</a>
+                        </li>
+
+
+                      </ul>
+                    </li>
+
+                    <li><a class="dropdown-item margin-left" href="№">Müxtəlif</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- İzoliyasiya sistemləri -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    İzoliyasiya sistemləri
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item margin-left" href="#">Daş yunları</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Bitum və tol</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Penoplastlar</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!--   İşçi ləvazimatları -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    İşçi ləvazimatları <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Alətlər
+                        <i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li>
+                          <a class="dropdown-item margin-left" href="#">Elektrikli alətlər </a>
+                        </li>
+                        <li><a class="dropdown-item margin-left" href="#">Əl alətləri</a></li>
+
+                      </ul>
+                    </li>
+
+                  </ul>
+                </li>
+              </ul>
+              <!-- Santexnika -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Santexnika <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Boru və fittinq<i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu border-left sub-menu02" aria-labelledby="navbarDropdown">
+                        <li>
+                          <a class="dropdown-item margin-left" href="#"> İsti döşəmə boruları</a>
+                        </li>
+                        <li><a class="dropdown-item margin-left" href="#">Kanalizasiya boruları</a></li>
+                        <li>
+                          <a class="dropdown-item margin-left" href="#"> Kanalizasiya boru fittinqləri</a>
+                        </li>
+                        <li><a class="dropdown-item margin-left" href="#">Su şlanqları</a></li>
+                        <li><a class="dropdown-item margin-left" href="#">Su boruları</a></li>
+                        <li><a class="dropdown-item margin-left" href="#">Su boru fittinqləri</a></li>
+                        <li><a class="dropdown-item margin-left" href="#">Xamut və zajimlər</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Hamam və mətbəx
+                        <i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu sub-menu02" aria-labelledby="navbarDropdown">
+                        <li> <a class="dropdown-item margin-left" href="#"> Unitaz</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Su qızdırıcıları və kombilər
+                        <i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu sub-menu02" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item margin-left" href="#"> Kombilər</a></li>
+                        <li><a class="dropdown-item margin-left" href="#"> Su qızdırıcılıarı</a></li>
+                        <li><a class="dropdown-item margin-left" href="#"> Su qızdırıcı çən</a></li>
+
+
+
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown drop-down02">
+                      <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Radiatorlar
+                        <i class="feather-chevron-right "></i>
+                      </a>
+                      <ul class="dropdown-menu sub-menu02" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item margin-left" href="#"> Panel radiatorlar</a></li>
+                        <li><a class="dropdown-item margin-left" href="#"> seksiyalı radiatorlar</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="#"> Müxtəlif</a></li>
+
+                  </ul>
+                </li>
+              </ul>
+              <!-- Taxta -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Taxta
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">Dikt</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Döşəmə taxtaları</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Obşivka taxta</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Reykalar</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Taxta plintuslar</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- Metal -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Metal
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">Dəmir profil</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Dəmir list</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Armatur</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Boltlar və qaykalar</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Müxtəlif</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- Dam örtüyünvə polikarbonat -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Dam örtüyünvə polikarbonat
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">Profnastil</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Çerepitsa</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Ademante</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Kirəmit</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Azbest şifer</a></li>
+                    <li><a class="dropdown-item margin-left" href="#">Teqola</a></li>
+                    <li><a class="dropdown-item margin-left" href="#">Sendviç panel</a></li>
+                    <li><a class="dropdown-item margin-left" href="#">Polikarbonat</a></li>
+                    <li><a class="dropdown-item margin-left" href="#">Ödülün</a></li>
+                    <li><a class="dropdown-item margin-left" href="#">Aksesuarlar</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- Alçipan və aksesuarlar  -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Alçipan və aksesuarlar
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">Alçipanlar</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Profillər</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Əqrəblər</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Vintlər</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Müxtəlif</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- Qapılar  -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Qapılar
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">Otaq qapıları</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Giriş qapıları</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Dəmir darvazalar</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">Qaraj qapıları</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">Jalüz</a></li>
+                    <li><a class="dropdown-item margin-left" href="#">Qapı aksesuarları</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- Oboy  -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Oboy
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">Maye oboy</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">divar kağızı</a>
+                    </li>
+
+                  </ul>
+                </li>
+              </ul>
+              <!-- Laminat və parketlər  -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Laminat və parketlər
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">laminat</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">parket</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">tarket</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">plintus</a>
+                    </li>
+
+                  </ul>
+                </li>
+              </ul>
+              <!--  Kafel və metlaxlar  -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Kafel və metlaxlar
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">metlax</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">keramoqranit</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">kafel</a>
+                    </li>
+
+                  </ul>
+                </li>
+              </ul>
+              <!--  Fasad  -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Fasad
+                    <i class="feather-chevron-right "></i>
+                  </a>
+                  <ul class="dropdown-menu border-left" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item margin-left" href="#">mozaika</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">pilləkan</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">dekorativ daş</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">kant</a>
+                    </li>
+                    <li><a class="dropdown-item margin-left" href="#">mebel arası</a></li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">dekor</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item margin-left" href="#">travertin</a>
+                    </li>
+
+                  </ul>
+                </li>
+              </ul>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-    <!-- catagory -->
-    <div
-      class="modal fade left  modal-scrollable"
-      id="categorymodal"
-      tabindex="-1"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog bg-dark text-white modal-dialog-centered">
-        <div class="modal-content theme-dark-bg p-0 border-0 rounded-0">
-          <button
-            type="button"
-            class="btn-close z-index-5 bg-grey font-xsssss w-26 h-26 text-center rounded-circle posa right-0 top-0 mt-3 me-3"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-          <div class="modal-body vw100 text-start  p-0">
-            <div class="card p-4 border-0 text-start">
-              <h4
-                class="fw-700 font-lg text-grey-900 text-start mb-3 mt-n2 d-block ls-0"
-              >
-                Categories
-              </h4>
-              <ul class="ms-0 ps-0 border-0 mt-3">
-                <li>
-                  <a href="#" class="d-flex" data-bs-toggle="dropdown">
-                    Tavan aksesuarları <i class="feather-chevron-right"></i
-                  ></a>
-                  <ul class="submenu dropdown-menu pt-0 pb-0 ps-3">
-                    <li><a class="dropdown-item" href="#">Asma tavan</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Oristeklo</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Lambirin</a></li>
-                    <li><a class="dropdown-item" href="#">Gipsalit tərkibli asma tavan</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#"
-                        >Köməkçi vasitələr</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <!-- Elektirik -->
-                <li>
-                  <a href="#" class="d-flex" data-bs-toggle="dropdown">
-                    Elektirik <i class="feather-chevron-right"></i
-                  ></a>
-                  <ul class="submenu dropdown-menu pt-0 pb-0 ps-3">
-                   
-                   <li class="">
-                    <a href="#" class="d-flex" data-bs-toggle="dropdown">
-                      Elektirik aksesuarları <i class="feather-chevron-right"></i
-                    ></a>
-                    <ul class="submenu dropdown-menu pt-0 pb-0 ps-3">
-                      <li><a class="dropdown-item bg-dark" href="#">Asma tavan</a></li>
-                     </ul>
-                   </li>
-                  </ul>
-                </li>
-              
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Catagory -->
+  </div>
 
-    <script src="js/plugin.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+  <script src="js/plugin.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
